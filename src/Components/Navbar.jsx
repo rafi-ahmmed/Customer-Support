@@ -3,7 +3,7 @@ import { FaPlus } from 'react-icons/fa';
 
 const Navbar = () => {
    return (
-      <div className="border-b border-slate-100 bg-white">
+      <div className="border-b border-slate-100 bg-white sticky top-0 z-50">
          <div className="navbar  container mx-auto ">
             <div className="flex-1">
                <p className="text-[#130B2D] text-xl font-bold">
