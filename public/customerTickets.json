@@ -88,5 +88,50 @@
       "priority": "MEDIUM PRIORITY",
       "status": "Open",
       "createdAt": "1/24/2024"
+   },
+   {
+      "id": "#1011",
+      "title": "API Integration Error",
+      "description": "The external API integration is returning a 500 error when trying to sync user data.",
+      "customer": "Ethan Wright",
+      "priority": "HIGH PRIORITY",
+      "status": "Open",
+      "createdAt": "1/25/2024"
+   },
+   {
+      "id": "#1012",
+      "title": "Discount Code Not Working",
+      "description": "Customer is trying to use the 'WELCOME20' code but it says the code has expired.",
+      "customer": "Mia Robinson",
+      "priority": "LOW PRIORITY",
+      "status": "In- Progress",
+      "createdAt": "1/26/2024"
+   },
+   {
+      "id": "#1013",
+      "title": "Bulk Export Failure",
+      "description": "System crashes when trying to export more than 5000 records to a CSV file.",
+      "customer": "Noah Clark",
+      "priority": "MEDIUM PRIORITY",
+      "status": "Open",
+      "createdAt": "1/27/2024"
+   },
+   {
+      "id": "#1014",
+      "title": "Language Translation Bug",
+      "description": "The French version of the dashboard has several English strings still visible.",
+      "customer": "Charlotte Lewis",
+      "priority": "LOW PRIORITY",
+      "status": "Open",
+      "createdAt": "1/28/2024"
+   },
+   {
+      "id": "#1015",
+      "title": "Video Tutorial Not Loading",
+      "description": "The onboarding video on the help page stuck at 0% and won't play.",
+      "customer": "Lucas Walker",
+      "priority": "MEDIUM PRIORITY",
+      "status": "In- Progress",
+      "createdAt": "1/29/2024"
    }
 ]

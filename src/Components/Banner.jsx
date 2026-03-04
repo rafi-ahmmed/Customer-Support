@@ -1,7 +1,7 @@
 import vector1 from '../assets/vector1.png';
 import vector2 from '../assets/vector2.png';
 
-const Banner = () => {
+const Banner = ({ inProgressCount, resolvedCount }) => {
    return (
       <div className="">
          {/* In Progress */}
@@ -21,7 +21,7 @@ const Banner = () => {
                         In-Progress
                      </h2>
                      <p className=" text-center mt-2.5 text-white text-4xl font-bold">
-                        0
+                        {inProgressCount}
                      </p>
                   </div>
                </div>
@@ -42,7 +42,7 @@ const Banner = () => {
                         Resolved
                      </h2>
                      <p className=" text-center mt-2.5 text-white text-4xl font-bold">
-                        0
+                        {resolvedCount}
                      </p>
                   </div>
                </div>
