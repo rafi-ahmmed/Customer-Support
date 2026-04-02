@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaPlus } from 'react-icons/fa';
+import { IoMenu } from 'react-icons/io5';
 
 const Navbar = () => {
    return (
@@ -33,7 +34,9 @@ const Navbar = () => {
                </ul>
 
                <details className="dropdown lg:hidden">
-                  <summary className="btn m-1">Menu</summary>
+                  <summary className="btn btn-ghost m-1">
+                     <IoMenu className='text-xl' />
+                  </summary>
                   <ul className="menu dropdown-content bg-base-100 rounded-box z-10 w-52 p-2 shadow">
                      <li>
                         <a>Home</a>
